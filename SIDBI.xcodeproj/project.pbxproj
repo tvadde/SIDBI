@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86EE1B69E5A43AEF5EE6BAFE /* libPods-SIDBI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BD0ED21960605755E5645 /* libPods-SIDBI.a */; };
 		E403E2A11F7E3A2D00EE45F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E2A01F7E3A2D00EE45F6 /* AppDelegate.m */; };
 		E403E2A41F7E3A2D00EE45F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E2A31F7E3A2D00EE45F6 /* ViewController.m */; };
 		E403E2A71F7E3A2D00EE45F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E403E2A51F7E3A2D00EE45F6 /* Main.storyboard */; };
@@ -14,9 +15,12 @@
 		E403E2AC1F7E3A2D00EE45F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E403E2AB1F7E3A2D00EE45F6 /* Assets.xcassets */; };
 		E403E2AF1F7E3A2D00EE45F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E403E2AD1F7E3A2D00EE45F6 /* LaunchScreen.storyboard */; };
 		E403E2B21F7E3A2D00EE45F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E2B11F7E3A2D00EE45F6 /* main.m */; };
+		E403E2BA1F7E4B1600EE45F6 /* RegistrationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E2B91F7E4B1600EE45F6 /* RegistrationCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E5BD0ED21960605755E5645 /* libPods-SIDBI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIDBI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A9A802B1B30D672FA49D404 /* Pods-SIDBI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIDBI.release.xcconfig"; path = "Pods/Target Support Files/Pods-SIDBI/Pods-SIDBI.release.xcconfig"; sourceTree = "<group>"; };
 		E403E29C1F7E3A2D00EE45F6 /* SIDBI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIDBI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E403E29F1F7E3A2D00EE45F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E403E2A01F7E3A2D00EE45F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +32,9 @@
 		E403E2AE1F7E3A2D00EE45F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E403E2B01F7E3A2D00EE45F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E403E2B11F7E3A2D00EE45F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E403E2B81F7E4B1600EE45F6 /* RegistrationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationCell.h; sourceTree = "<group>"; };
+		E403E2B91F7E4B1600EE45F6 /* RegistrationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationCell.m; sourceTree = "<group>"; };
+		FB3E3EC42045306CF714D5B2 /* Pods-SIDBI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIDBI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SIDBI/Pods-SIDBI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86EE1B69E5A43AEF5EE6BAFE /* libPods-SIDBI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A0B6142D36C272E7EFD0F26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E5BD0ED21960605755E5645 /* libPods-SIDBI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A29CE77B36DE0F0FD46583B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB3E3EC42045306CF714D5B2 /* Pods-SIDBI.debug.xcconfig */,
+				3A9A802B1B30D672FA49D404 /* Pods-SIDBI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E403E2931F7E3A2D00EE45F6 = {
 			isa = PBXGroup;
 			children = (
 				E403E29E1F7E3A2D00EE45F6 /* SIDBI */,
 				E403E29D1F7E3A2D00EE45F6 /* Products */,
+				A29CE77B36DE0F0FD46583B4 /* Pods */,
+				4A0B6142D36C272E7EFD0F26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +92,8 @@
 				E403E2A21F7E3A2D00EE45F6 /* ViewController.h */,
 				E403E2A31F7E3A2D00EE45F6 /* ViewController.m */,
 				E403E2A51F7E3A2D00EE45F6 /* Main.storyboard */,
+				E403E2B81F7E4B1600EE45F6 /* RegistrationCell.h */,
+				E403E2B91F7E4B1600EE45F6 /* RegistrationCell.m */,
 				E403E2AB1F7E3A2D00EE45F6 /* Assets.xcassets */,
 				E403E2AD1F7E3A2D00EE45F6 /* LaunchScreen.storyboard */,
 				E403E2B01F7E3A2D00EE45F6 /* Info.plist */,
@@ -81,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E403E2B51F7E3A2D00EE45F6 /* Build configuration list for PBXNativeTarget "SIDBI" */;
 			buildPhases = (
+				A25E6EF026DD66EAAA5A90DF /* [CP] Check Pods Manifest.lock */,
 				E403E2981F7E3A2D00EE45F6 /* Sources */,
 				E403E2991F7E3A2D00EE45F6 /* Frameworks */,
 				E403E29A1F7E3A2D00EE45F6 /* Resources */,
+				0542562AED0AA12C629CD7B1 /* [CP] Embed Pods Frameworks */,
+				8A9C3670CC0674C70A8DB2EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,6 +172,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0542562AED0AA12C629CD7B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SIDBI/Pods-SIDBI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9C3670CC0674C70A8DB2EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SIDBI/Pods-SIDBI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A25E6EF026DD66EAAA5A90DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E403E2981F7E3A2D00EE45F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,6 +228,7 @@
 				E403E2A41F7E3A2D00EE45F6 /* ViewController.m in Sources */,
 				E403E2A11F7E3A2D00EE45F6 /* AppDelegate.m in Sources */,
 				E403E2B21F7E3A2D00EE45F6 /* main.m in Sources */,
+				E403E2BA1F7E4B1600EE45F6 /* RegistrationCell.m in Sources */,
 				E403E2AA1F7E3A2D00EE45F6 /* SIDBI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +361,7 @@
 		};
 		E403E2B61F7E3A2D00EE45F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3E3EC42045306CF714D5B2 /* Pods-SIDBI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,6 +376,7 @@
 		};
 		E403E2B71F7E3A2D00EE45F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A9A802B1B30D672FA49D404 /* Pods-SIDBI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

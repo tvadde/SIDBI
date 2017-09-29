@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.registrationScrollView.contentSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, 1007);
+    self.registrationSupportView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 1007);
+    self.re
 }
 
 

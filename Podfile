@@ -8,5 +8,9 @@ target 'SIDBI' do
   # Pods for SIDBI
 
      pod 'TPKeyboardAvoiding'
+     pod 'AFNetworking', '~> 3.0'
+     pod 'JSONModel'
+     pod 'SWRevealViewController'
+     pod 'MBProgressHUD', '~> 0.9.2'
 
 end

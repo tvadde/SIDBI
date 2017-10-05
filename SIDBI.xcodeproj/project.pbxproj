@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		86EE1B69E5A43AEF5EE6BAFE /* libPods-SIDBI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5BD0ED21960605755E5645 /* libPods-SIDBI.a */; };
+		8A7AFBDA1F82184800957B50 /* EquipmentListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7AFBD91F82184800957B50 /* EquipmentListVC.m */; };
+		8A9505271F8230120080D16F /* TransformersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9505261F8230120080D16F /* TransformersVC.m */; };
+		8A95052A1F8238940080D16F /* CompressorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9505291F8238940080D16F /* CompressorVC.m */; };
 		E403E2A11F7E3A2D00EE45F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E2A01F7E3A2D00EE45F6 /* AppDelegate.m */; };
 		E403E2A41F7E3A2D00EE45F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E2A31F7E3A2D00EE45F6 /* ViewController.m */; };
 		E403E2A71F7E3A2D00EE45F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E403E2A51F7E3A2D00EE45F6 /* Main.storyboard */; };
@@ -16,11 +19,24 @@
 		E403E2AF1F7E3A2D00EE45F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E403E2AD1F7E3A2D00EE45F6 /* LaunchScreen.storyboard */; };
 		E403E2B21F7E3A2D00EE45F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E2B11F7E3A2D00EE45F6 /* main.m */; };
 		E403E2BA1F7E4B1600EE45F6 /* RegistrationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E403E2B91F7E4B1600EE45F6 /* RegistrationCell.m */; };
+		E428D75E1F84E272006ED8C2 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E428D75D1F84E272006ED8C2 /* BaseModel.m */; };
+		E428D7611F84E2FE006ED8C2 /* ClusterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E428D7601F84E2FE006ED8C2 /* ClusterModel.m */; };
+		E428D7641F84E31A006ED8C2 /* MSMEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E428D7631F84E31A006ED8C2 /* MSMEModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E5BD0ED21960605755E5645 /* libPods-SIDBI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIDBI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9A802B1B30D672FA49D404 /* Pods-SIDBI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIDBI.release.xcconfig"; path = "Pods/Target Support Files/Pods-SIDBI/Pods-SIDBI.release.xcconfig"; sourceTree = "<group>"; };
+		8A7AFBD81F82184800957B50 /* EquipmentListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EquipmentListVC.h; sourceTree = "<group>"; };
+		8A7AFBD91F82184800957B50 /* EquipmentListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EquipmentListVC.m; sourceTree = "<group>"; };
+		8A8071391F7E69BB00027109 /* NSError+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+Additions.m"; sourceTree = "<group>"; };
+		8A80713A1F7E69BB00027109 /* NSError+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+Additions.h"; sourceTree = "<group>"; };
+		8A80713B1F7E69BB00027109 /* APICall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APICall.h; sourceTree = "<group>"; };
+		8A80713C1F7E69BB00027109 /* APICall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APICall.m; sourceTree = "<group>"; };
+		8A9505251F8230120080D16F /* TransformersVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformersVC.h; sourceTree = "<group>"; };
+		8A9505261F8230120080D16F /* TransformersVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformersVC.m; sourceTree = "<group>"; };
+		8A9505281F8238940080D16F /* CompressorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompressorVC.h; sourceTree = "<group>"; };
+		8A9505291F8238940080D16F /* CompressorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompressorVC.m; sourceTree = "<group>"; };
 		E403E29C1F7E3A2D00EE45F6 /* SIDBI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIDBI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E403E29F1F7E3A2D00EE45F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E403E2A01F7E3A2D00EE45F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,6 +50,12 @@
 		E403E2B11F7E3A2D00EE45F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E403E2B81F7E4B1600EE45F6 /* RegistrationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationCell.h; sourceTree = "<group>"; };
 		E403E2B91F7E4B1600EE45F6 /* RegistrationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistrationCell.m; sourceTree = "<group>"; };
+		E428D75C1F84E272006ED8C2 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		E428D75D1F84E272006ED8C2 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		E428D75F1F84E2FE006ED8C2 /* ClusterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClusterModel.h; sourceTree = "<group>"; };
+		E428D7601F84E2FE006ED8C2 /* ClusterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClusterModel.m; sourceTree = "<group>"; };
+		E428D7621F84E31A006ED8C2 /* MSMEModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMEModel.h; sourceTree = "<group>"; };
+		E428D7631F84E31A006ED8C2 /* MSMEModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMEModel.m; sourceTree = "<group>"; };
 		FB3E3EC42045306CF714D5B2 /* Pods-SIDBI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIDBI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SIDBI/Pods-SIDBI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +77,17 @@
 				1E5BD0ED21960605755E5645 /* libPods-SIDBI.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A8071381F7E69A100027109 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				8A80713B1F7E69BB00027109 /* APICall.h */,
+				8A80713C1F7E69BB00027109 /* APICall.m */,
+				8A80713A1F7E69BB00027109 /* NSError+Additions.h */,
+				8A8071391F7E69BB00027109 /* NSError+Additions.m */,
+			);
+			path = BaseView;
 			sourceTree = "<group>";
 		};
 		A29CE77B36DE0F0FD46583B4 /* Pods */ = {
@@ -87,6 +120,7 @@
 		E403E29E1F7E3A2D00EE45F6 /* SIDBI */ = {
 			isa = PBXGroup;
 			children = (
+				8A8071381F7E69A100027109 /* BaseView */,
 				E403E29F1F7E3A2D00EE45F6 /* AppDelegate.h */,
 				E403E2A01F7E3A2D00EE45F6 /* AppDelegate.m */,
 				E403E2A21F7E3A2D00EE45F6 /* ViewController.h */,
@@ -94,6 +128,18 @@
 				E403E2A51F7E3A2D00EE45F6 /* Main.storyboard */,
 				E403E2B81F7E4B1600EE45F6 /* RegistrationCell.h */,
 				E403E2B91F7E4B1600EE45F6 /* RegistrationCell.m */,
+				8A7AFBD81F82184800957B50 /* EquipmentListVC.h */,
+				8A7AFBD91F82184800957B50 /* EquipmentListVC.m */,
+				8A9505251F8230120080D16F /* TransformersVC.h */,
+				8A9505261F8230120080D16F /* TransformersVC.m */,
+				8A9505281F8238940080D16F /* CompressorVC.h */,
+				8A9505291F8238940080D16F /* CompressorVC.m */,
+				E428D75C1F84E272006ED8C2 /* BaseModel.h */,
+				E428D75D1F84E272006ED8C2 /* BaseModel.m */,
+				E428D75F1F84E2FE006ED8C2 /* ClusterModel.h */,
+				E428D7601F84E2FE006ED8C2 /* ClusterModel.m */,
+				E428D7621F84E31A006ED8C2 /* MSMEModel.h */,
+				E428D7631F84E31A006ED8C2 /* MSMEModel.m */,
 				E403E2AB1F7E3A2D00EE45F6 /* Assets.xcassets */,
 				E403E2AD1F7E3A2D00EE45F6 /* LaunchScreen.storyboard */,
 				E403E2B01F7E3A2D00EE45F6 /* Info.plist */,
@@ -225,11 +271,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E428D75E1F84E272006ED8C2 /* BaseModel.m in Sources */,
 				E403E2A41F7E3A2D00EE45F6 /* ViewController.m in Sources */,
 				E403E2A11F7E3A2D00EE45F6 /* AppDelegate.m in Sources */,
 				E403E2B21F7E3A2D00EE45F6 /* main.m in Sources */,
 				E403E2BA1F7E4B1600EE45F6 /* RegistrationCell.m in Sources */,
 				E403E2AA1F7E3A2D00EE45F6 /* SIDBI.xcdatamodeld in Sources */,
+				8A7AFBDA1F82184800957B50 /* EquipmentListVC.m in Sources */,
+				8A9505271F8230120080D16F /* TransformersVC.m in Sources */,
+				E428D7641F84E31A006ED8C2 /* MSMEModel.m in Sources */,
+				E428D7611F84E2FE006ED8C2 /* ClusterModel.m in Sources */,
+				8A95052A1F8238940080D16F /* CompressorVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

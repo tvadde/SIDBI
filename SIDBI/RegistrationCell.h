@@ -10,4 +10,8 @@
 
 @interface RegistrationCell : UITableViewCell
 
+@property (nonatomic, weak) IBOutlet UILabel *placeHolderLbl;
+@property (nonatomic, weak) IBOutlet UIView *borderView;
+@property (nonatomic, weak) IBOutlet UITextField *userTextField;
+
 @end
